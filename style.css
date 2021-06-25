@@ -1,0 +1,95 @@
+.container {
+  margin-bottom: 100px;
+}
+
+.orange-bg {
+  background: #feeae9;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  padding: 20px 150px;
+
+}
+
+span.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    border: 4px solid #ff257a;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+span.carousel-control-prev-icon{
+    background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+    border: 4px solid #ff257a;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+
+.item-price {
+  color: #ff136f;
+}
+.btn-buynow {
+  background-image: linear-gradient(to bottom, #ff136f 0%, #ff136f 100%);
+  color: #fff;
+  padding: 9px 25px;
+  border-radius: 8px;
+}
+
+.cat-1 {
+  background: #ffd019;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.cat-2 {
+  background: #ff257a;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.cat-3 {
+  background: #414bfc;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.categories img{
+    width: 180px;
+}
+.col{
+    display: flex;
+}
+.card-text{
+    height: 40%;
+}
+.col div{
+    border: 0;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+#subscribe{
+    height: 300px;
+}
+
+.circle{
+    border-radius: 20px;
+    border: 2px solid #ff136f;
+    transition: all 1.5s;
+    color: gray;
+
+}
+
+.circle:focus{
+    background: #ff257a;
+    border: 2px solid #a09197;
+    color: #feeae9;
+}
